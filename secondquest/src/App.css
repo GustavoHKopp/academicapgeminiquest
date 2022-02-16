@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  background-color: rgb(59, 59, 59);
+  font-family: arial;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.children{
+  border: 2px solid red;
+  width: 325px;
+  height: 230px;
+  padding: 10px;
+  background-color: rgb(88, 87, 87);
+  color: white;
+}
+
+#inputPassword{
+  background-color: white;
+  width: 310px;
+  height: 20px;
+  border-radius: 10px 5px;
+  border: 1px solid rgb(255, 0, 0);
+  margin-bottom: 15px;
+  cursor: text;
+  padding: 3px;
+}
+
+#inputPassword:hover{
+  background-color: rgb(200, 188, 188);
+}
+
+.button{
+  background-color: green;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  border: 2px solid rgb(2, 92, 2);
+}
+
+.button:hover{
+  background-color: rgb(31, 187, 31);
+  border: 2px solid rgb(17, 110, 17);
+  width: 85px;
+  height: 35px;
+}
